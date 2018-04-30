@@ -1,0 +1,7 @@
+/* pages/demo/demo1.wxss */
+swiper {
+height:200px;
+}
+.slide-image{
+  width: 100%;
+}

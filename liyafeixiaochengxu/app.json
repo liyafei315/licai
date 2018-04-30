@@ -1,12 +1,21 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/demo/demo1",
+    "pages/logs/logs",
+    "pages/diyiye/ym01"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true,
+    "navigationBarBackgroundColor": "#e5e5e5",
+    "navigationBarTitleText": "理财App",
+    "navigationBarTextStyle": "black"
+  },
+  "jsonData": {
+    "pagesT": [
+      "pages/index/index",
+      "pages/logs/logs"
+    ]
   }
 }

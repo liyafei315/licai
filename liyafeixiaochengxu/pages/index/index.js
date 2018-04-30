@@ -50,5 +50,16 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  qieYm01:function(){
+    wx.navigateTo({
+      url: '../diyiye/ym01'
+    })
+  },
+  demo01: function () {
+    wx.navigateTo({
+      url: '../demo/demo1'
+    })
   }
+  
 })
