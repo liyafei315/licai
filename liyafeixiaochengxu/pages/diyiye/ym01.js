@@ -61,15 +61,18 @@ Page({
   // console.log(1);
   console.log(1);
   // wx.startPullDownRefresh();
-  wx.showLoading({
-    title: '玩命加载中',
-    icon: 'success',//成功显示图标
-    duration: 2000//时间
-  })
-  // wx.showNavigationBarLoading();
+  // wx.showLoading({
+  //   title: '玩命加载中',
+  //   icon: 'success',//成功显示图标
+  //   duration: 9000//时间
+  // });
+  wx.showNavigationBarLoading();
   setTimeout(function(){
     wx.stopPullDownRefresh();
+    wx.hideLoading();
+    wx.hideNavigationBarLoading();
   },2000);
+  
  
   console.log(2);
   },
@@ -78,12 +81,12 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
-    wx.showLoading({
-      title: '玩命加载中',
-      icon: 'success',//成功显示图标
-      duration: 2000//时间
-    })
+console.log("上拉加载!");
+    // wx.showLoading({
+    //   title: '玩命加载中',
+    //   icon: 'success',//成功显示图标
+    //   duration: 2000//时间
+    // })
   },
 
   /**

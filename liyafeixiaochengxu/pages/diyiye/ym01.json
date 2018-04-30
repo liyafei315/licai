@@ -1,4 +1,5 @@
 {
     "navigationBarTitleText": "第一个页面",
-    "backgroundColor": "#f0145a"
+    "backgroundColor": "#f0145a",
+    "enablePullDownRefresh": true
 }

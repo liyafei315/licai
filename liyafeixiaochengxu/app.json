@@ -7,7 +7,7 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "enablePullDownRefresh": true,
+
     "navigationBarBackgroundColor": "#e5e5e5",
     "navigationBarTitleText": "理财App",
     "navigationBarTextStyle": "black"
