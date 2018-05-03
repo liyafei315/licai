@@ -20,3 +20,4 @@ current="2"
 <button open-type='getUserInfo' bindgetuserinfo='xinxi'>信息</button >
 <button bindtap='zhendong'>震动</button >
 <button bindtap='qiehuan' value='切换'>切换</button>
+<button bindtap='SM' value='扫码'>扫码</button>

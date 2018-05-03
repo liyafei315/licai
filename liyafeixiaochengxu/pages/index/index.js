@@ -60,6 +60,11 @@ Page({
     wx.navigateTo({
       url: '../demo/demo1'
     })
+  },
+  demo02: function () {
+    wx.navigateTo({
+      url: '../demo2/demo2'
+    })
   }
   
 })

@@ -3,11 +3,12 @@
     "pages/index/index",
     "pages/demo/demo1",
     "pages/logs/logs",
-    "pages/diyiye/ym01"
+    "pages/diyiye/ym01",
+    "pages/demo2/demo2",
+    "pages/ym02/ym02"
   ],
   "window": {
     "backgroundTextStyle": "light",
-
     "navigationBarBackgroundColor": "#e5e5e5",
     "navigationBarTitleText": "理财App",
     "navigationBarTextStyle": "black"

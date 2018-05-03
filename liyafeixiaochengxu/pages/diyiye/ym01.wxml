@@ -1,2 +1,15 @@
 <!--pages/diyiye/ym01.wxml-->
 <text >ym01第一个页面</text>
+联系人姓名：<input type="text" name="name"/>
+<label class="radio">  
+    {{sexs.value}}  
+  </label>  
+手机：<input name="tel"/>
+服务地址地址： {{addreRange[addreValue]}}  
+门牌号：<input name="door" type="text"/>
+预约日期： {{dateValue}}　|　 {{timeValue}}  
+详情房屋面积： {{areaRange[areaValue]}}㎡(以便自动计算保洁时间和服务人数)
+<label class="checkbox">{{price}}  </label>  
+备注：<input name="comment" type="text" />
+<input name="sign" type="text" value="{{sign}}" />
+<button class="submit">立即预约</button>  

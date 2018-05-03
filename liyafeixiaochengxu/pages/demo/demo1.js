@@ -167,6 +167,22 @@ durationChange: function (e) {
   this.setData({
     duration: e.detail.value
   })
+},
+SM: function (e) {
+  // 允许从相机和相册扫码
+  wx.scanCode({
+    success: (res) => {
+      console.log(res)
+    }
+  })
+
+  // // 只允许从相机扫码
+  // wx.scanCode({
+  //   onlyFromCamera: true,
+  //   success: (res) => {
+  //     console.log(res)
+  //   }
+  // })
 }
 
 })
