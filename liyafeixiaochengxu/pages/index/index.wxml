@@ -10,7 +10,5 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
-  <button bindtap="qieYm01">切换ym01</button>
-  <button bindtap="demo01">切换demo</button>
-  <button bindtap="demo02">切换demo02</button>
+  <button bindtap="qieYm01">切换ym02</button>
 </view>

@@ -53,18 +53,7 @@ Page({
   },
   qieYm01:function(){
     wx.navigateTo({
-      url: '../diyiye/ym01'
-    })
-  },
-  demo01: function () {
-    wx.navigateTo({
-      url: '../demo/demo1'
-    })
-  },
-  demo02: function () {
-    wx.navigateTo({
-      url: '../demo2/demo2'
+      url: '../ym02/ym02'
     })
   }
-  
 })

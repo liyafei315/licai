@@ -1,2 +1,3 @@
 <!--pages/ym02/ym02.wxml-->
 <text>pages/ym02/ym02.wxml</text>
+<button bindtap="shouquan">授权</button>
